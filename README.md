@@ -48,9 +48,9 @@ Hasil menunjukkan bahwa penambahan nilai kecerahan meningkatkan rata-rata intens
 
 ## Struktur Repository
 
-- `Brightness_Adjustment.ipynb` — notebook berisi kode dan proses pengolahan citra.
-- `foto asli.jpg` — gambar sebelum pengolahan.
-- `hasil/` — folder penyimpanan gambar hasil Brightness Adjustment.
+- `Brightness_Adjustment.ipynb` notebook berisi kode dan proses pengolahan citra.
+- `foto asli.jpg` gambar sebelum pengolahan.
+- `hasil/` folder penyimpanan gambar hasil Brightness Adjustment.
 
 ## Kesimpulan
 
