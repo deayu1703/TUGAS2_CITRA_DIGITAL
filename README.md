@@ -14,18 +14,9 @@ Menerapkan metode *Brightness Adjustment* untuk meningkatkan dan menurunkan kece
 
 ## Metode
 
-Brightness Adjustment dilakukan dengan menambahkan atau mengurangi nilai intensitas piksel menggunakan rumus:
+Brightness Adjustment dilakukan dengan menambahkan atau mengurangi nilai intensitas piksel pada gambar. Nilai positif digunakan untuk mencerahkan gambar, sedangkan nilai negatif digunakan untuk menggelapkannya.
 
-\[
-g(x,y) = f(x,y) + \beta
-\]
-
-Keterangan:
-- \(f(x,y)\): intensitas piksel asli.
-- \(g(x,y)\): intensitas piksel setelah pengolahan.
-- \(\beta\): nilai perubahan kecerahan.
-
-Pada program ini, nilai **+50** digunakan untuk mencerahkan gambar dan **-50** untuk menggelapkan gambar. Nilai intensitas dibatasi pada rentang 0–255.
+Pada program ini, nilai **+50** digunakan untuk mencerahkan gambar dan **-50** untuk menggelapkan gambar. Nilai intensitas piksel dibatasi pada rentang 0–255.
 
 ## Library yang Digunakan
 
@@ -36,13 +27,11 @@ Pada program ini, nilai **+50** digunakan untuk mencerahkan gambar dan **-50** u
 
 ## Hasil Pengolahan
 
-Program menghasilkan tiga versi citra, yaitu gambar asli, gambar lebih terang, dan gambar lebih gelap.
-
-| Jenis Gambar | Nilai Kecerahan | Rata-rata Intensitas |
-|---|---:|---:|
-| Gambar Asli | 0 | 63,58 |
-| Gambar Terang | +50 | 113,45 |
-| Gambar Gelap | -50 | 18,20 |
+| Jenis Gambar  | Nilai Kecerahan | Rata-rata Intensitas |
+| ------------- | --------------: | -------------------: |
+| Gambar Asli   |               0 |                63,58 |
+| Gambar Terang |             +50 |               113,45 |
+| Gambar Gelap  |             -50 |                18,20 |
 
 Hasil menunjukkan bahwa penambahan nilai kecerahan meningkatkan rata-rata intensitas piksel, sedangkan pengurangan nilai kecerahan menurunkannya.
 
@@ -54,9 +43,9 @@ Hasil menunjukkan bahwa penambahan nilai kecerahan meningkatkan rata-rata intens
 
 ## Kesimpulan
 
-Metode Brightness Adjustment berhasil digunakan untuk mengubah kecerahan citra digital. Perubahan terlihat melalui perbandingan gambar dan dibuktikan dengan perubahan nilai rata-rata intensitas piksel.
+Metode Brightness Adjustment berhasil digunakan untuk mengubah kecerahan citra digital. Perubahan dapat diamati melalui perbandingan gambar dan dibuktikan dengan perubahan nilai rata-rata intensitas piksel.
 
 ---
 
-**Mata Kuliah:** Pengolahan Citra Digital  
+**Mata Kuliah:** Pengolahan Citra Digital
 **Universitas Nahdlatul Ulama Indonesia - 2026**
